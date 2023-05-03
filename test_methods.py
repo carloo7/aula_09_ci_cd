@@ -21,3 +21,12 @@ def test_perimeter():
     
     # then the perimeter should be 14
     assert output == 14
+
+def test_divisao():
+
+    valor1 = 50
+    valor2 = 5
+
+    output = methods.divisao(valor1, valor2)
+    assert output == 10
+
